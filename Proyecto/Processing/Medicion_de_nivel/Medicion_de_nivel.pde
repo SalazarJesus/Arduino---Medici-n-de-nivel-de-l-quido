@@ -11,7 +11,7 @@ PImage Fondo;
 void setup()
 {
   
-  size (1000,560);
+  size (1350,700);
   
   Fondo=loadImage("fondo.jpg");
   
@@ -35,11 +35,11 @@ void draw()
     textSize(20);
     text(numero+"mm",70,100);
 }
- int altura=800;
+ int altura=600;
  int inicio=40;
    if (datos != -1) {
   
-    float inData =(datos); //<-----
+    float inData =(datos); 
     inData = map(inData, 0, 1022, 40, altura); //datos de la escala de tamaño de pantalla
     Ypos= int(height-inData);
  
