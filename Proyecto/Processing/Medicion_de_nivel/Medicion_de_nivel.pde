@@ -8,13 +8,14 @@ int Ypos;             // vertical position of the plot
 int lastXpos;         // last x coordinate
 int lastYpos;         // last y coordinate
 PImage Fondo;
+PImage Logo;
 void setup()
 {
   
   size (1350,700);
   
-  Fondo=loadImage("fondo.jpg");
-  
+  Fondo=loadImage("IMAGEN.png");
+  Logo=loadImage("Logo.png");
   port = new Serial (this,"COM10", 9600);
   port.bufferUntil('\n');
   Xpos = width+1;
@@ -26,21 +27,21 @@ void setup()
 void draw()
 {
  
-
+  image(Logo,20, 0);
   if (datos !=-1){
     fill(c);
-    rect(70,70,70,70);
+    rect(600,20,90,70);
     fill(255, 0, 153);
     int numero=int(datos);
     textSize(20);
-    text(numero+"mm",70,100);
+    text(numero+"mm",600,80);
 }
- int altura=600;
- int inicio=40;
+ int altura=585;
+ int inicio=110;
    if (datos != -1) {
   
     float inData =(datos); 
-    inData = map(inData, 0, 1022, 40, altura); //datos de la escala de tamaño de pantalla
+    inData = map(inData, 0, 400, 43, altura); //datos de la escala de tamaño de pantalla
     Ypos= int(height-inData);
  
     if (Xpos > width) {   // Iniciar
@@ -51,7 +52,7 @@ void draw()
     }
  
    stroke(25,34,255);     //color de figura
-    strokeWeight(3);        // tamaño de figura
+    strokeWeight(2);        // tamaño de figura
     line(lastXpos, lastYpos, Xpos, Ypos);
       
     lastXpos= Xpos;
