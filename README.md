@@ -9,7 +9,7 @@ Ing. Paulo Chiliguano.
 - Salazar
 - Zambrano
 
-# IMFORME
+# INFORME
 
 ![](https://scontent.fuio1-1.fna.fbcdn.net/v/t34.0-12/15782451_1273767342662017_105781839_n.png?oh=8ae139621621931bc65a0da71b05ed7d&oe=5867FBD5)
 
