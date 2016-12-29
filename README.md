@@ -18,8 +18,8 @@ En el presente informe damos a conocer las caracteristicas de los avances del pr
 que se realizaron durante la semana hasta la presente fecha.
 
 ### Caracteristicas del avance
-1. Mediante el módulo arduino y el sensor podemos conocer el nivel de un líquido que hay en un recipiente.Se puede observar en la gráfica 
-   las conexiones del sensor y el módulo arduino.
+1. Mediante el módulo arduino y el sensor podemos conocer el nivel de un líquido que hay en un recipiente. Se puede observar en la
+   gráfica las conexiones del sensor y el módulo arduino.
        
    ![](http://www.prometec.net/wp-content/uploads/2014/10/Sesion-26_2.jpg)
       
