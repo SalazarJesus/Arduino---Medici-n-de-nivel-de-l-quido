@@ -11,24 +11,25 @@ Ing. Paulo Chiliguano.
 
 # INFORME
 
-## Introducción 
+## 1 Introducción 
 En el presente informe damos a conocer las caracteristicas de los avances del proyecto __"medidor de nivel de líquido en arduino"__
 que se realizaron durante la semana hasta la presente fecha.
 
-## Objetivos
+### 1.1 Objetivos
 * Analizar el código referente al lenguaje arduino del __"medidor de nivel de líquido"__ para entender su funcionamiento
 * Desarrollar una interface de usuario para la interacción del circuito con el ordenador por medio del Processing
 * Implementar la interface de usuario en el circuito construido en arduino
 
-## Materiales
+### 1.2 Materiales
 1. Arduino
 2. sensor ultrasonido HC-SR04
 3. potenciometro
 4. sensor medidor de agua
+5. led's rojo verde amarillo
 
-### Caracteristicas del avance
+## 2 Caracteristicas del avance
 
-### primera fase
+### 2.1 primera fase
 1. Mediante el módulo arduino y el sensor podemos conocer el nivel de un líquido que hay en un recipiente. Se puede observar en la
    gráfica las conexiones del sensor y el módulo arduino.
        
@@ -44,13 +45,13 @@ que se realizaron durante la semana hasta la presente fecha.
    
    ![](https://scontent.fuio1-1.fna.fbcdn.net/v/t34.0-12/15909963_695239973980499_1584697272_n.png?oh=d1ff6b423c040aff322d368b8165d83d&oe=5879A318)
    
-### segunda fase
+### 2.2 segunda fase
 1. se adquirio el sensor de nivel de liquido
 2. Se realizaron las pruebas con el sensor ya implemetado en el circuito
 3. Luego de las pruebas se llego a la conclusión que el sensor tenia una desventaja la cual es que no mide con exactitud los valores que
    necesitamos y que el área de medición es limitada a 4 cm.
    
-### fase final (Resultados)
+### 2.3 fase final (Resultados)
 1. En esta ultima fase se dará a conocer como quedó el proyecto mostrando sus caracteristicas y funcionalidades
 2. Pantalla de inicio
 
